@@ -31,8 +31,8 @@ public class SwaggerConfiguration {
     }
     
     private ApiInfo apiInfo() {
-        return new ApiInfoBuilder().title("Criptomoeda API")
-                .description("API de referência para Criptomoeda e Cotação")
+        return new ApiInfoBuilder().title("Cliente API")
+                .description("API de referência para criação de cliente")
                 .license("Licença Apache 2.0")
                 .version("Versão 1.0.0").build();
     }

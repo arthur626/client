@@ -23,7 +23,7 @@ public class Application {
 	
 	public static void main(String[] args) {
 		log.info("Inicializando...");
-	    System.setProperty("server.servlet.context-path", "/cripto-api");
+	    System.setProperty("server.servlet.context-path", "/cliente-api");
 		new SpringApplicationBuilder(Application.class).web(WebApplicationType.SERVLET).run(args);
 	}
 	
